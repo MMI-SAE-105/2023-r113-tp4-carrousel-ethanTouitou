@@ -9,3 +9,12 @@ img {
     max-width: auto;
     /* hauteur "auto" */
 }
+
+.carrousel_parent-ecrans {
+    display: flex;
+    /* aligne horizontalement les enfants */
+    width: 100%;
+    /* largeur du parent */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}

@@ -18,3 +18,10 @@ img {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
+
+.carrousel_ecran {
+    width: 100%;
+    /* largeur du parent pour chaque enfant */
+    flex: 0 0 100%;
+    /* permet de garder toute la largeur du parent */
+}

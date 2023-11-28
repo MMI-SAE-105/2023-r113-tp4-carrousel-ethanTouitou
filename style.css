@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    /* change le box model */
+}
+
+img {
+    max-width: 100%;
+    /* image responsive, largeur maxi */
+    max-width: auto;
+    /* hauteur "auto" */
+}

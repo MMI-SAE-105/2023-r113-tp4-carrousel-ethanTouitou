@@ -25,3 +25,8 @@ img {
     flex: 0 0 100%;
     /* permet de garder toute la largeur du parent */
 }
+
+.carrousel_ecran figure {
+    margin: none;
+    /* enlève les marges par défaut */
+}

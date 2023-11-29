@@ -71,7 +71,7 @@ img {
     /* enlève les marges par défaut */
     padding: 0;
     /* enlève les padding par défaut */
-
+    list-style: none;
     /* enlève les puces par défaut */
     : ;
     /* espace entre les enfants */

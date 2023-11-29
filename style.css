@@ -8,7 +8,6 @@ img {
     /* image responsive, largeur maxi */
     max-width: auto;
     /* hauteur "auto" */
-<<<<<<< HEAD
 }
 
 .carrousel_parent-ecrans {
@@ -30,6 +29,4 @@ img {
 .carrousel_ecran figure {
     margin: none;
     /* enlève les marges par défaut */
-=======
->>>>>>> parent of 3a57ac7 (class carrousel parent aligne horizon largeur pare)
 }

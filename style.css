@@ -25,6 +25,7 @@ img {
     /* largeur du parent pour chaque enfant */
     flex: 0 0 100%;
     /* permet de garder toute la largeur du parent */
+    scroll-snap-align: start;
 }
 
 .carrousel_ecran figure {

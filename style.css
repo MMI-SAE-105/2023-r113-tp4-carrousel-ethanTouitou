@@ -17,6 +17,7 @@ img {
     /* largeur du parent */
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .carrousel_ecran {

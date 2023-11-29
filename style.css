@@ -65,7 +65,7 @@ img {
 .caroussel_liste-liens {
     display: flex;
     /* aligne horizontalement les enfants */
-    : ;
+    justify-content: center;
     /* centre horizontalement les enfants */
     : ;
     /* enlève les marges par défaut */

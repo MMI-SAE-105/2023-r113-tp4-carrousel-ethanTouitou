@@ -67,11 +67,11 @@ img {
     /* aligne horizontalement les enfants */
     justify-content: center;
     /* centre horizontalement les enfants */
-    : ;
+    margin: 0;
     /* enlève les marges par défaut */
-    : ;
+    padding: 0;
     /* enlève les padding par défaut */
-    : ;
+
     /* enlève les puces par défaut */
     : ;
     /* espace entre les enfants */

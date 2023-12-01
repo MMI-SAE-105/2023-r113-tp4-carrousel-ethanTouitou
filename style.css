@@ -1,78 +1,85 @@
-* {
-    box-sizing: border-box;
-    /* change le box model */
-}
+  body {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      background-color: #b0b0b0;
+  }
 
-img {
-    max-width: 100%;
-    /* image responsive, largeur maxi */
-    max-width: auto;
-    /* hauteur "auto" */
-}
+  * {
+      box-sizing: border-box;
+      /* change le box model */
+  }
 
-.carrousel_parent-ecrans {
-    display: flex;
-    /* aligne horizontalement les enfants */
-    width: 100%;
-    /* largeur du parent */
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-}
+  img {
+      max-width: 100%;
+      /* image responsive, largeur maxi */
+      max-width: auto;
+      /* hauteur "auto" */
+  }
 
-.carrousel_ecran {
-    width: 100%;
-    /* largeur du parent pour chaque enfant */
-    flex: 0 0 100%;
-    /* permet de garder toute la largeur du parent */
-    scroll-snap-align: start;
-}
+  .carrousel_parent-ecrans {
+      display: flex;
+      /* aligne horizontalement les enfants */
+      width: 100%;
+      /* largeur du parent */
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+  }
 
-.carrousel_ecran figure {
-    margin: none;
-    /* enlève les marges par défaut */
-}
+  .carrousel_ecran {
+      width: 100%;
+      /* largeur du parent pour chaque enfant */
+      flex: 0 0 100%;
+      /* permet de garder toute la largeur du parent */
+      scroll-snap-align: start;
+  }
 
-.carrousel {
-    position: relative;
-}
+  .carrousel_ecran figure {
+      margin: none;
+      /* enlève les marges par défaut */
+  }
 
-.carrousel_btn {
-    position: absolute;
-    top: 50%;
-    top: calc(min(500px, 100vw) / 16 * 9 / 2 + 1rem);
-    /* centre verticalement ~50% vertical */
-    transform: translateY(-50%);
-    /* methode du point mort */
-    width: 2rem;
-    height: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    border: none;
-    display: grid;
-    place-content: center;
-    color: #fff;
-}
+  .carrousel {
+      position: relative;
+  }
 
-.carrousel_btn-avant {
-    left: 0;
-}
+  .carrousel_btn {
+      position: absolute;
+      top: 50%;
+      top: calc(min(500px, 100vw) / 16 * 9 / 2 + 1rem);
+      /* centre verticalement ~50% vertical */
+      transform: translateY(-50%);
+      /* methode du point mort */
+      width: 2rem;
+      height: 2rem;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      border: none;
+      display: grid;
+      place-content: center;
+      color: #fff;
+  }
 
-.carrousel_btn-apres {
-    right: 0;
-}
+  .carrousel_btn-avant {
+      left: 0;
+  }
 
-.caroussel_liste-liens {
-    display: flex;
-    /* aligne horizontalement les enfants */
-    justify-content: center;
-    /* centre horizontalement les enfants */
-    margin: 0;
-    /* enlève les marges par défaut */
-    padding: 0;
-    /* enlève les padding par défaut */
-    list-style: none;
-    /* enlève les puces par défaut */
-    gap: 1rem;
-    /* espace entre les enfants */
-}
+  .carrousel_btn-apres {
+      right: 0;
+  }
+
+  .caroussel_liste-liens {
+      display: flex;
+      /* aligne horizontalement les enfants */
+      justify-content: center;
+      /* centre horizontalement les enfants */
+      margin: 0;
+      /* enlève les marges par défaut */
+      padding: 0;
+      /* enlève les padding par défaut */
+      list-style: none;
+      /* enlève les puces par défaut */
+      gap: 1rem;
+      /* espace entre les enfants */
+  }

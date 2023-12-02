@@ -2,7 +2,7 @@
       display: flex;
       align-items: center;
       height: 100vh;
-      background-image: url(img/pexels-eberhard-grossgasteiger-2098427\ \(1\).jpg);
+      background-image: url(img/pexels-daniel-cid-17505901.jpg);
       background-attachment: fixed;
   }
 
@@ -12,8 +12,6 @@
   }
 
   img {
-      width: 500px;
-      height: 300px;
       max-width: 100%;
       /* image responsive, largeur maxi */
       max-width: auto;

@@ -2,7 +2,8 @@
       display: flex;
       align-items: center;
       height: 100vh;
-      background-color: #b0b0b0;
+      background-image: url(img/pexels-eberhard-grossgasteiger-2098427\ \(1\).jpg);
+      background-attachment: fixed;
   }
 
   * {
@@ -11,6 +12,7 @@
   }
 
   img {
+      width: ;
       max-width: 100%;
       /* image responsive, largeur maxi */
       max-width: auto;
